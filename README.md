@@ -1,29 +1,31 @@
 # AI Data Quality Sentinel
 
+**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results.
+
+[Portfolio](https://eskstrom.github.io/) · [Related projects](https://eskstrom.github.io/?category=healthcare-operations#library)
+
 ## Product brief
 
 A monitoring dashboard that detects data drift, missingness, schema changes, and outlier values before they affect an AI-enabled workflow.
 
-## Why this belongs in your portfolio
+## Design focus
 
-It connects your data-lineage and implementation experience to a core enterprise-AI reliability problem.
+Connect data-quality alerts to reproducible checks and the people who can act.
 
-## MVP
+## Proposed scope
 
 - Two synthetic dataset snapshots.
 - Checks for missing values, category shifts, schema changes, and outliers.
 - Alert feed with severity and recommended owner/action.
 - Run history and data-quality scorecard.
 
-## Success measures
+## Validation targets
 
 - Every alert links to a reproducible check and affected fields.
 - Demonstrate a known bad-data scenario from end to end.
 
-## Suggested stack
+## Potential implementation
 
 Python, Pandas, Great Expectations or custom checks, Streamlit.
 
-## Chat kickoff
-
-“Build AI Data Quality Sentinel with synthetic snapshots, reproducible checks, and an explainable alert dashboard.”
+[Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
